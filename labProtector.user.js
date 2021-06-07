@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         NPC Lab Protector
 // @namespace    http://tampermonkey.net/
-// @version      0.95
+// @version      0.96
 // @description  Removes pets from the lab page you don't want to accidentally zap!
 // @author       plushies
 // @include      https://neopetsclassic.com/lab2/
@@ -34,7 +34,7 @@ var divs = document.getElementsByTagName('div');
              {
                  if (hiddenPets[p] == petName)
                  {
-                     console.log("hiding " + petName);
+                     console.log("Hiding " + petName + "!");
                      div.style.display = "none";
                  }
              }
