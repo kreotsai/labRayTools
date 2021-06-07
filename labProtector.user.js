@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         NPC Lab Protector
 // @namespace    http://tampermonkey.net/
-// @version      0.9
+// @version      0.95
 // @description  Removes pets from the lab page you don't want to accidentally zap!
 // @author       plushies
 // @include      https://neopetsclassic.com/lab2/
 // @include      https://www.neopetsclassic.com/lab2/
+// @updateURL    https://github.com/kreotsai/labRayTools/raw/main/labProtector.user.js
+// @downloadURL  https://github.com/kreotsai/labRayTools/raw/main/labProtector.user.js
 // @icon         https://www.google.com/s2/favicons?domain=neopetsclassic.com
 // @grant        none
 // ==/UserScript==
