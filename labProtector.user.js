@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         NPC Lab Protector
 // @namespace    http://tampermonkey.net/
-// @version      0.96
+// @version      1.0
 // @description  Removes pets from the lab page you don't want to accidentally zap!
 // @author       plushies
 // @include      https://neopetsclassic.com/lab2/
@@ -16,8 +16,9 @@
     'use strict';
 
 
-//Put any pet names into the brackets that you want to prevent from showing at the lab!
-    //Names must be in the [] brackets, in "" quotes, with a comma separating each one.
+//Put any pet names that you want to prevent from showing at the lab into the brackets below!
+    
+//Names must be in the [] brackets, in "" quotes, with a comma separating each one.
 var hiddenPets = ["PETNAMEHERE", "PETNAMEHERE"]
 
 var divs = document.getElementsByTagName('div');
